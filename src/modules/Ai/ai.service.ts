@@ -133,8 +133,8 @@ class AiService {
       // );
 
       // const summary = response.data.summary;
-      const summary = "Baheb sara awiii agmal wahda fel team amora w gamela bgad yaayyyyy";
-
+const summary =
+  "This is currently sample static data displayed because the AI model is not running locally. Once the AI service is connected and active, real AI-generated insights and dynamic analysis will appear here based on the uploaded data.";
       const updatedFile = await this._fileModel.findOneAndUpdate(
         { _id: fileId },
         { summary },
@@ -185,8 +185,8 @@ class AiService {
       //   },
       // );
 
-      const answer: string = `lololollolo`;
-      let sources = [
+const answer: string =
+  "AI-generated results are temporarily unavailable. The current content is only for demonstration purposes.";      let sources = [
         { source: "Networking Fundamentals lesson -5-.pdf", page: 1 },
         { source: "Networking Fundamentals lesson -5-.pdf", page: 3 },
         { source: "Networking Fundamentals lesson -5-.pdf", page: 4 },
